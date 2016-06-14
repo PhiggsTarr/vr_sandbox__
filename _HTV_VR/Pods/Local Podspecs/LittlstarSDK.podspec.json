@@ -1,0 +1,47 @@
+{
+  "name": "LittlstarSDK",
+  "version": "2.1.1",
+  "license": {
+    "type": "Copyright",
+    "text": "      Copyright 2016 Littlstar. All rights reserved.\n"
+  },
+  "summary": "LittlstarSDK_iOS containing components for panorama video",
+  "homepage": "https://github.com/littlstar/littlstar-ios-sdk",
+  "authors": {
+    "Littlstar dev. team": "dev@littlstar.com"
+  },
+  "platforms": {
+    "ios": "7.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "git@github.com:littlstar/littlstar-ios-sdk.git",
+    "tag": "2.1.1"
+  },
+  "source_files": "LittlstarSDK/Headers/*.h",
+  "ios": {
+    "preserve_paths": "LittlstarSDK/libLittlstarSDK.a",
+    "vendored_libraries": "LittlstarSDK/libLittlstarSDK.a",
+    "frameworks": [
+      "UIKit",
+      "Foundation",
+      "CoreMotion",
+      "OpenAL",
+      "AudioToolbox"
+    ]
+  },
+  "tvos": {
+    "preserve_paths": "LittlstarSDK/libLittlstarSDK_tvOS.a",
+    "vendored_libraries": "LittlstarSDK/libLittlstarSDK_tvOS.a",
+    "frameworks": [
+      "UIKit",
+      "Foundation"
+    ]
+  },
+  "requires_arc": true,
+  "libraries": "stdc++",
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "\"$(PODS_ROOT)/LittlstarSDK\"",
+    "HEADER_SEARCH_PATHS": "\"${PODS_ROOT}/Headers/LittlstarSDK\""
+  }
+}

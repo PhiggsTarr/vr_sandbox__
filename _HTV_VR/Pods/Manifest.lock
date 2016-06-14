@@ -1,0 +1,26 @@
+PODS:
+  - LittlstarSDK (2.1.1)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+
+DEPENDENCIES:
+  - LittlstarSDK (from `https://github.com/littlstar/littlstar-ios-sdk.git`)
+  - SDWebImage (~> 3.6)
+
+EXTERNAL SOURCES:
+  LittlstarSDK:
+    :git: https://github.com/littlstar/littlstar-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  LittlstarSDK:
+    :commit: 29ecc5315b3eb281bd7f055725a725c8c9690c94
+    :git: https://github.com/littlstar/littlstar-ios-sdk.git
+
+SPEC CHECKSUMS:
+  LittlstarSDK: 1318d77ccca8e7c38e4275db2e62d96d6301f4ea
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+
+PODFILE CHECKSUM: 51933cc57cc6a394088408539b31078070a90c7d
+
+COCOAPODS: 1.0.1

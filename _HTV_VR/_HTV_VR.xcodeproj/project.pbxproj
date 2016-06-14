@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56D58A2E34EEC0DEC6560231 /* libPods-_HTV_VR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D029261311146AC351277381 /* libPods-_HTV_VR.a */; };
+		B5AC17B71D105DFA00A054F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17B61D105DFA00A054F7 /* AppDelegate.swift */; };
+		B5AC17B91D105DFA00A054F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17B81D105DFA00A054F7 /* ViewController.swift */; };
+		B5AC17BC1D105DFA00A054F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AC17BA1D105DFA00A054F7 /* Main.storyboard */; };
+		B5AC17BF1D105DFA00A054F7 /* _HTV_VR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17BD1D105DFA00A054F7 /* _HTV_VR.xcdatamodeld */; };
+		B5AC17C11D105DFA00A054F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5AC17C01D105DFA00A054F7 /* Assets.xcassets */; };
+		B5AC17C41D105DFA00A054F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5AC17C21D105DFA00A054F7 /* LaunchScreen.storyboard */; };
+		B5AC17CF1D105DFA00A054F7 /* _HTV_VRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17CE1D105DFA00A054F7 /* _HTV_VRTests.swift */; };
+		B5AC17DA1D105DFA00A054F7 /* _HTV_VRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17D91D105DFA00A054F7 /* _HTV_VRUITests.swift */; };
+		B5AC17E81D1060D000A054F7 /* LittlStar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5AC17E71D1060D000A054F7 /* LittlStar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5AC17CB1D105DFA00A054F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5AC17AB1D105DFA00A054F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AC17B21D105DFA00A054F7;
+			remoteInfo = _HTV_VR;
+		};
+		B5AC17D61D105DFA00A054F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5AC17AB1D105DFA00A054F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5AC17B21D105DFA00A054F7;
+			remoteInfo = _HTV_VR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B0C5C6A6E017A24E1C25C89 /* Pods-_HTV_VR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_HTV_VR.release.xcconfig"; path = "Pods/Target Support Files/Pods-_HTV_VR/Pods-_HTV_VR.release.xcconfig"; sourceTree = "<group>"; };
+		B5AC17B31D105DFA00A054F7 /* _HTV_VR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = _HTV_VR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AC17B61D105DFA00A054F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5AC17B81D105DFA00A054F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B5AC17BB1D105DFA00A054F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5AC17BE1D105DFA00A054F7 /* _HTV_VR.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _HTV_VR.xcdatamodel; sourceTree = "<group>"; };
+		B5AC17C01D105DFA00A054F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5AC17C31D105DFA00A054F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5AC17C51D105DFA00A054F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AC17CA1D105DFA00A054F7 /* _HTV_VRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _HTV_VRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AC17CE1D105DFA00A054F7 /* _HTV_VRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HTV_VRTests.swift; sourceTree = "<group>"; };
+		B5AC17D01D105DFA00A054F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AC17D51D105DFA00A054F7 /* _HTV_VRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = _HTV_VRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5AC17D91D105DFA00A054F7 /* _HTV_VRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _HTV_VRUITests.swift; sourceTree = "<group>"; };
+		B5AC17DB1D105DFA00A054F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5AC17E71D1060D000A054F7 /* LittlStar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LittlStar.swift; path = ../LittlStar.swift; sourceTree = "<group>"; };
+		B5AC17E91D10610400A054F7 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
+		D029261311146AC351277381 /* libPods-_HTV_VR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-_HTV_VR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF173AF44B01676BC05E999 /* Pods-_HTV_VR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-_HTV_VR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-_HTV_VR/Pods-_HTV_VR.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5AC17B01D105DFA00A054F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D58A2E34EEC0DEC6560231 /* libPods-_HTV_VR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17C71D105DFA00A054F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17D21D105DFA00A054F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EE67E7EE52B884B68DE264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDF173AF44B01676BC05E999 /* Pods-_HTV_VR.debug.xcconfig */,
+				4B0C5C6A6E017A24E1C25C89 /* Pods-_HTV_VR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5AC17AA1D105DFA00A054F7 = {
+			isa = PBXGroup;
+			children = (
+				B5AC17B51D105DFA00A054F7 /* _HTV_VR */,
+				B5AC17CD1D105DFA00A054F7 /* _HTV_VRTests */,
+				B5AC17D81D105DFA00A054F7 /* _HTV_VRUITests */,
+				B5AC17B41D105DFA00A054F7 /* Products */,
+				01EE67E7EE52B884B68DE264 /* Pods */,
+				EE8909F416AF8768EDCBD485 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B5AC17B41D105DFA00A054F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5AC17B31D105DFA00A054F7 /* _HTV_VR.app */,
+				B5AC17CA1D105DFA00A054F7 /* _HTV_VRTests.xctest */,
+				B5AC17D51D105DFA00A054F7 /* _HTV_VRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AC17B51D105DFA00A054F7 /* _HTV_VR */ = {
+			isa = PBXGroup;
+			children = (
+				B5AC17E91D10610400A054F7 /* Header.h */,
+				B5AC17E71D1060D000A054F7 /* LittlStar.swift */,
+				B5AC17B61D105DFA00A054F7 /* AppDelegate.swift */,
+				B5AC17B81D105DFA00A054F7 /* ViewController.swift */,
+				B5AC17BA1D105DFA00A054F7 /* Main.storyboard */,
+				B5AC17C01D105DFA00A054F7 /* Assets.xcassets */,
+				B5AC17C21D105DFA00A054F7 /* LaunchScreen.storyboard */,
+				B5AC17C51D105DFA00A054F7 /* Info.plist */,
+				B5AC17BD1D105DFA00A054F7 /* _HTV_VR.xcdatamodeld */,
+			);
+			path = _HTV_VR;
+			sourceTree = "<group>";
+		};
+		B5AC17CD1D105DFA00A054F7 /* _HTV_VRTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5AC17CE1D105DFA00A054F7 /* _HTV_VRTests.swift */,
+				B5AC17D01D105DFA00A054F7 /* Info.plist */,
+			);
+			path = _HTV_VRTests;
+			sourceTree = "<group>";
+		};
+		B5AC17D81D105DFA00A054F7 /* _HTV_VRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B5AC17D91D105DFA00A054F7 /* _HTV_VRUITests.swift */,
+				B5AC17DB1D105DFA00A054F7 /* Info.plist */,
+			);
+			path = _HTV_VRUITests;
+			sourceTree = "<group>";
+		};
+		EE8909F416AF8768EDCBD485 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D029261311146AC351277381 /* libPods-_HTV_VR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5AC17B21D105DFA00A054F7 /* _HTV_VR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AC17DE1D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VR" */;
+			buildPhases = (
+				B471236D680A14139A3D6C8A /* [CP] Check Pods Manifest.lock */,
+				B5AC17AF1D105DFA00A054F7 /* Sources */,
+				B5AC17B01D105DFA00A054F7 /* Frameworks */,
+				B5AC17B11D105DFA00A054F7 /* Resources */,
+				5045DC95C3FE56BA51D5102E /* [CP] Embed Pods Frameworks */,
+				A99EAB575A47124D2B19938A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = _HTV_VR;
+			productName = _HTV_VR;
+			productReference = B5AC17B31D105DFA00A054F7 /* _HTV_VR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5AC17C91D105DFA00A054F7 /* _HTV_VRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AC17E11D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VRTests" */;
+			buildPhases = (
+				B5AC17C61D105DFA00A054F7 /* Sources */,
+				B5AC17C71D105DFA00A054F7 /* Frameworks */,
+				B5AC17C81D105DFA00A054F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AC17CC1D105DFA00A054F7 /* PBXTargetDependency */,
+			);
+			name = _HTV_VRTests;
+			productName = _HTV_VRTests;
+			productReference = B5AC17CA1D105DFA00A054F7 /* _HTV_VRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5AC17D41D105DFA00A054F7 /* _HTV_VRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AC17E41D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VRUITests" */;
+			buildPhases = (
+				B5AC17D11D105DFA00A054F7 /* Sources */,
+				B5AC17D21D105DFA00A054F7 /* Frameworks */,
+				B5AC17D31D105DFA00A054F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5AC17D71D105DFA00A054F7 /* PBXTargetDependency */,
+			);
+			name = _HTV_VRUITests;
+			productName = _HTV_VRUITests;
+			productReference = B5AC17D51D105DFA00A054F7 /* _HTV_VRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5AC17AB1D105DFA00A054F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kevin Tarr";
+				TargetAttributes = {
+					B5AC17B21D105DFA00A054F7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B5AC17C91D105DFA00A054F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5AC17B21D105DFA00A054F7;
+					};
+					B5AC17D41D105DFA00A054F7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B5AC17B21D105DFA00A054F7;
+					};
+				};
+			};
+			buildConfigurationList = B5AC17AE1D105DFA00A054F7 /* Build configuration list for PBXProject "_HTV_VR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5AC17AA1D105DFA00A054F7;
+			productRefGroup = B5AC17B41D105DFA00A054F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5AC17B21D105DFA00A054F7 /* _HTV_VR */,
+				B5AC17C91D105DFA00A054F7 /* _HTV_VRTests */,
+				B5AC17D41D105DFA00A054F7 /* _HTV_VRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5AC17B11D105DFA00A054F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AC17C41D105DFA00A054F7 /* LaunchScreen.storyboard in Resources */,
+				B5AC17C11D105DFA00A054F7 /* Assets.xcassets in Resources */,
+				B5AC17BC1D105DFA00A054F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17C81D105DFA00A054F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17D31D105DFA00A054F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5045DC95C3FE56BA51D5102E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_HTV_VR/Pods-_HTV_VR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A99EAB575A47124D2B19938A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-_HTV_VR/Pods-_HTV_VR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B471236D680A14139A3D6C8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5AC17AF1D105DFA00A054F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AC17B91D105DFA00A054F7 /* ViewController.swift in Sources */,
+				B5AC17E81D1060D000A054F7 /* LittlStar.swift in Sources */,
+				B5AC17B71D105DFA00A054F7 /* AppDelegate.swift in Sources */,
+				B5AC17BF1D105DFA00A054F7 /* _HTV_VR.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17C61D105DFA00A054F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AC17CF1D105DFA00A054F7 /* _HTV_VRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5AC17D11D105DFA00A054F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5AC17DA1D105DFA00A054F7 /* _HTV_VRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5AC17CC1D105DFA00A054F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5AC17B21D105DFA00A054F7 /* _HTV_VR */;
+			targetProxy = B5AC17CB1D105DFA00A054F7 /* PBXContainerItemProxy */;
+		};
+		B5AC17D71D105DFA00A054F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5AC17B21D105DFA00A054F7 /* _HTV_VR */;
+			targetProxy = B5AC17D61D105DFA00A054F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5AC17BA1D105DFA00A054F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AC17BB1D105DFA00A054F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5AC17C21D105DFA00A054F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5AC17C31D105DFA00A054F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5AC17DC1D105DFA00A054F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5AC17DD1D105DFA00A054F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5AC17DF1D105DFA00A054F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF173AF44B01676BC05E999 /* Pods-_HTV_VR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _HTV_VR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(_HTV_VR)/$(_HTV_VR)Header.h";
+			};
+			name = Debug;
+		};
+		B5AC17E01D105DFA00A054F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0C5C6A6E017A24E1C25C89 /* Pods-_HTV_VR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = _HTV_VR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VR";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(_HTV_VR)/$(_HTV_VR)Header.h";
+			};
+			name = Release;
+		};
+		B5AC17E21D105DFA00A054F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _HTV_VRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_HTV_VR.app/_HTV_VR";
+			};
+			name = Debug;
+		};
+		B5AC17E31D105DFA00A054F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = _HTV_VRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VRTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/_HTV_VR.app/_HTV_VR";
+			};
+			name = Release;
+		};
+		B5AC17E51D105DFA00A054F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _HTV_VRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _HTV_VR;
+			};
+			name = Debug;
+		};
+		B5AC17E61D105DFA00A054F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = _HTV_VRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NerdInventions.-HTV-VRUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = _HTV_VR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5AC17AE1D105DFA00A054F7 /* Build configuration list for PBXProject "_HTV_VR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AC17DC1D105DFA00A054F7 /* Debug */,
+				B5AC17DD1D105DFA00A054F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AC17DE1D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AC17DF1D105DFA00A054F7 /* Debug */,
+				B5AC17E01D105DFA00A054F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AC17E11D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AC17E21D105DFA00A054F7 /* Debug */,
+				B5AC17E31D105DFA00A054F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5AC17E41D105DFA00A054F7 /* Build configuration list for PBXNativeTarget "_HTV_VRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5AC17E51D105DFA00A054F7 /* Debug */,
+				B5AC17E61D105DFA00A054F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B5AC17BD1D105DFA00A054F7 /* _HTV_VR.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B5AC17BE1D105DFA00A054F7 /* _HTV_VR.xcdatamodel */,
+			);
+			currentVersion = B5AC17BE1D105DFA00A054F7 /* _HTV_VR.xcdatamodel */;
+			path = _HTV_VR.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B5AC17AB1D105DFA00A054F7 /* Project object */;
+}
