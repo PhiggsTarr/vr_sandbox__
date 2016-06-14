@@ -1,0 +1,8 @@
+platform :ios, "7.0"
+
+target "_HTV_VR" do
+# Third party libs
+
+pod 'LittlstarSDK', :git => 'https://github.com/littlstar/littlstar-ios-sdk.git'
+pod 'SDWebImage', '~> 3.6'
+end
